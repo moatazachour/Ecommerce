@@ -1,0 +1,394 @@
+@media (max-width: 75em) {
+  html {
+    font-size: 50%;
+  }
+
+  .category-text {
+    font-size: 1.4rem;
+  }
+
+  .service-icon-div {
+    top: 42%;
+  }
+
+  .recommend-price {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 61em) {
+  html {
+    font-size: 45%;
+  }
+
+  .list {
+    font-size: 1.8rem;
+  }
+
+  .items-group-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .items-group-item .item-name {
+    font-size: 1.8rem;
+    margin: 0 0 0.9rem 0;
+  }
+
+  .items-group-item .item-price {
+    width: inherit;
+    font-size: 1.6rem;
+  }
+
+  .items-group-item:nth-child(3),
+  .items-group-item:nth-child(4),
+  .items-group-item:nth-child(8) {
+    border-right: 1px solid #e0e0e0;
+  }
+
+  .items-group-item:nth-child(5),
+  .items-group-item:nth-child(6) {
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .items-group-item:nth-child(6) {
+    border-right: none;
+  }
+
+  .items-group-item:nth-child(7),
+  .items-group-item:nth-child(8) {
+    border-bottom: none;
+  }
+
+  .recommend-price {
+    font-size: 2rem;
+  }
+
+  .service-icon-div {
+    top: 45%;
+  }
+}
+
+@media (max-width: 61em) {
+  .container {
+    width: 90%;
+  }
+
+  .first {
+    position: relative;
+  }
+
+  .first::after {
+    content: url(../src/menu.png);
+    position: absolute;
+    left: 8rem;
+    top: 0rem;
+  }
+
+  .header-input {
+    max-width: 36rem;
+  }
+
+  .category {
+    display: none;
+  }
+
+  .btn-search {
+    display: none;
+  }
+
+  .omitted {
+    display: none;
+  }
+
+  .header-nav {
+    margin-left: 2rem;
+  }
+
+  .navbar-nations,
+  .navbar-alibaba-icon {
+    display: none;
+  }
+
+  .navbar-alibaba {
+    margin-left: auto;
+  }
+
+  .section-main {
+    grid-template-columns: 1fr;
+    margin-left: auto;
+  }
+
+  .main-3rd-row,
+  .section-main-list {
+    display: none;
+  }
+
+  .section-sale {
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+  }
+
+  .sale-intro {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .sale-content {
+    margin-bottom: 1rem;
+    overflow-x: scroll;
+    padding-left: 2rem;
+  }
+
+  .sale-item {
+    border: 1px solid #e0e0e0;
+    min-width: 15rem;
+  }
+
+  .sale-item:last-child {
+    border-right: 1px solid #e0e0e0;
+  }
+
+  .section-block-items {
+    grid-template-columns: 1fr;
+    row-gap: 0.8rem;
+  }
+
+  .items-group-heading {
+    width: 40rem;
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .items-group-content {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .items-group-item {
+    max-width: 50rem;
+    height: 20rem;
+    flex-direction: column;
+    border: 0.5px solid #e0e0e0;
+  }
+
+  .section-inquiry {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .cta {
+    margin-bottom: 2rem;
+  }
+
+  .recommend-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .recommend-item {
+    text-align: center;
+  }
+
+  .service-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .service-img {
+    width: 100%;
+  }
+
+  .service-icon-div {
+    display: none;
+  }
+
+  .service-item p {
+    width: inherit;
+    font-size: 2rem;
+  }
+
+  .country-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer-nav {
+    grid-template-columns: 1.5fr 1fr 1fr;
+  }
+
+  .footer-download h3,
+  .footer-links h3 {
+    font-size: 2.2rem;
+  }
+
+  .footer-links p {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 34em) {
+  .header-nav {
+    grid-template-columns: repeat(2, 5rem);
+  }
+
+  .header-menu {
+    top: -180%;
+    right: -50%;
+  }
+
+  .header-alibaba {
+    grid-template-columns: auto auto;
+    height: auto;
+    row-gap: 0.8rem;
+    padding: 1.6rem;
+  }
+
+  .input-group {
+    grid-row: 2/3;
+    grid-column: 1/3;
+    justify-self: start;
+    border-radius: 3px;
+  }
+
+  .input-group {
+    border: 1px solid #dee2e7;
+  }
+
+  .navbar-alibaba {
+    overflow-x: scroll;
+  }
+
+  .alibaba-nav-links {
+    width: 10rem;
+    color: #0d6efd;
+    background-color: #eff2f4;
+    border-radius: 2px;
+    text-align: center;
+    padding: 2px;
+  }
+
+  .btn-white {
+    color: #0d6efd;
+  }
+
+  .date-square {
+    background-color: #eff2f4;
+    color: #8b96a5;
+  }
+
+  .section-block-items {
+    position: relative;
+  }
+
+  .items-group-content {
+    display: flex;
+    overflow-x: scroll;
+  }
+
+  .items-group-item {
+    min-width: 20rem;
+  }
+
+  .btn-special {
+    position: absolute;
+    bottom: -20px;
+    left: 10px;
+    background-color: inherit;
+    padding: 0;
+  }
+
+  .btn-special::after {
+    content: url(../src/arrow_forward.png);
+    position: absolute;
+    right: -26px;
+    bottom: -1px;
+  }
+
+  .recommend-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cta {
+    width: 40rem;
+    height: 34.6rem;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 2.2rem 0 0 2rem;
+    margin-right: 4rem;
+  }
+
+  .inquiry-long-input {
+    width: 36rem;
+    height: 4rem;
+    border-radius: 6px;
+    border: 1px solid #8b96a5;
+    padding-left: 1.1rem;
+  }
+
+  .inquiry-form textarea {
+    width: 36rem;
+    height: 7.3rem;
+    border-radius: 6px;
+    padding-left: 1.1rem;
+    padding-top: 1.1rem;
+  }
+
+  .country-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section-newsletter p {
+    font-size: 1.4rem;
+  }
+
+  .footer-nav {
+    grid-template-columns: 1.5fr 1.25fr;
+  }
+}
+
+@media (max-width: 22em) {
+  .search-input {
+    width: 36rem;
+  }
+
+  .items-intro {
+    background-image: none;
+    width: 30rem;
+    border-right: none;
+  }
+
+  .section-inquiry-heading {
+    width: 30rem;
+  }
+
+  .section-inquiry-description {
+    width: 30rem;
+  }
+
+  .cta {
+    width: 34rem;
+  }
+
+  .inquiry-form {
+    gap: 1rem;
+  }
+
+  .inquiry-long-input {
+    width: 26rem;
+  }
+
+  .inquiry-form textarea {
+    width: 26rem;
+  }
+
+  .recommend-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-nav {
+    grid-template-columns: 1fr;
+    padding-left: auto;
+  }
+}
